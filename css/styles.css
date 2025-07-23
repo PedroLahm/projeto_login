@@ -2,9 +2,24 @@
 
 .row{
     background-color: #F8F8F8;
+
+    padding: 25px;
+
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.115);
 }
 
-.col{
-    border: 1px solid teal;
+.col-md-6{
     padding: 20px;
+}
+
+.col-md-6 a{
+    color: #222;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.col-md-6 a:hover{
+    color: #6C63FF;
+    text-decoration: underline;
 }
