@@ -57,3 +57,12 @@ body{
     border-color: #544dcf !important;
     box-shadow: none !important;
 }
+
+.form-check-label a{
+    color: #6C63FF;
+}
+
+form .row{
+    box-shadow: none;
+    background-color: none;
+}
