@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.row{
+    background-color: #F8F8F8;
+}
+
+.col{
+    border: 1px solid teal;
+    padding: 20px;
+}
