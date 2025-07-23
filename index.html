@@ -18,15 +18,31 @@
 
 
 <body>
-    <div class="container text-center">
-        <div class="row ">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col order-2 order-md-1">
                 <img src="img/sign_in.svg" alt="Imagem de Login" class="img-fluid">
 
                 <a href="registro.html">Ainda não tenho cadastro</a>
             </div>
             <div class="col order-1 order-md-2">
-                Coluna 2
+                <form>
+                    <h2 class="mb-5">Faça o login para continuar</h2>
+                    
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Digite o seu e-mail" required>
+                        <label for="email">Digite o seu e-mail</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Digite a sua senha" required>
+                        <label for="password">Digite a sua senha</label>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="submit" class="btn btn-primary" value="Entrar">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
